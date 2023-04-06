@@ -4,13 +4,13 @@
 This challenge was a *Job-seeking coding assessments* or *take-home assignments*. These type of challenges do not provide a starter code, instead a code is built from scratch. This challenge was to create a web application that is a portfolio page. The user is a potential employer who can see my digital portfolio, which I will update with projects throughout this course as a hiring canidate. Challenge 2 delve into the creative side of programming. It was nice to see a visually pleasing finished product and I am excited to continue working on future web applications. Front end development is where art meets tech. 
 
 ### Installation
-Navigate to the repository
-Click code
-Clone to your computer
-Perform a git pull in your terminal
-Git add to your chosen folder
-Code Open .
-Navigate around the portfolio
+1. Navigate to the repository
+2. Click code
+3. Clone to your computer
+4. Perform a git pull in your terminal
+5. Git add to your chosen folder
+6. Code Open .
+7. Navigate around the portfolio
 
 #### License
 MIT License
