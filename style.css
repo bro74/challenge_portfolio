@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 10;
+    margin-top: 10;
+}
+
+main {
+    display: block;
+}
+
+body {
+    background: linear-gradient(rgb(245, 230, 193), rgb(225, 207, 188), rgb(205, 185, 184), rgb(185, 163, 178), rgb(165, 141, 173));
+    font-family: 'monospace', "curier new";
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: 'monospace', "curier new";
+    background-color: rgb(163,143,174);;
+    color: rgb(132,26,148);
+    font-size: 95%; 
+    font-weight: bolder;
+
+}
+
+h1 img {
+    width: 100px; 
+    height: 100px; 
+    margin-left: 10px; 
+    vertical-align: left; 
+  }
+
+
+.imageBanner {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(pride.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    
+    padding: 0px;
+    margin-right: 85%;
+    color: black(132,26,148);
+    white-space: nowrap;
+    border-bottom: 1.2px solid black;
+}
+
+
+header nav {
+    padding-top: 10px;
+    float: right;
+    margin-left: 40%;
+  
+    
+}
+
+.header nav ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header nav ul li {
+    padding: 5px; 
+    padding-right: 40px;
+    white-space: wrap;
+    
+}
+
+
+.intro {
+        float: left;
+        width: 30%;
+        padding: 20px;
+        margin-bottom: 10px;
+        background-color: rgb(163,143,174);
+        border: 1px solid black;
+        
+}
+
+.about-me-box {
+    box-sizing: border-box;
+    border: 1px dashed black;
+    padding: 5px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: rgb(132,26,148);
+    
+}
+
+.about-me-box:hover {
+    background-color: rgb(228,219,193);
+}
+
+.work-box {
+    box-sizing: border-box;
+    border: 1px dashed black;
+    padding: 5px;
+    margin-bottom: 5%;
+    color:rgb(132,26,148);
+    
+}
+
+.work-box:hover {
+    background-color: rgb(228,219,193);
+}
+
+.contact-me-box {
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+    padding: 20px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    border: 1px dashed black;
+    color: rgb(132,26,148);
+
+}
+
+.contact-me-box:hover {
+    background-color: rgb(228,219,193);
+}
+.contact-me-box nav {
+   float: left; 
+   position: absolute;
+}
+
+.contact-me-box nav ul {
+    list-style: none;
+    display: flex;
+    white-space: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.contact-me-box nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+    
+    
+}
+   
+.contact-container {
+   display: flex;
+   flex-wrap: wrap; 
+}  
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.card:hover{
+    background-color: rgb(228,219,193);
+}
+  .card {
+    width: 300px;
+    margin: 20px;
+    margin-left: 10%;
+    margin-top: 2%;
+    padding: 20px;
+    background-color: rgb(163,143,174);
+    border: 1px dashed black;
+    border-radius: 5px;
+    color: rgb(132,26,148);
+  }
+
+.card-a {
+    width: 718px;
+    margin: 20px;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding: 20px;
+    background-color: rgb(163,143,174);
+    border: 1px dashed black;
+    border-radius: 5px;
+    color:  rgb(132,26,148);
+}
+
+.card-a:hover {
+    background-color: rgb(228,219,193);
+}
+
+.footer-box {
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+
+@media screen and (max-width: 992px) {
+    .header {
+        background-color: white;
+        border: solid black;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        color:  white;
+    }       
+}
+
+
+
